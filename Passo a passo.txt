@@ -1,0 +1,53 @@
+1º Criar o projeto
+    npx create-next-app pizzaria
+2º Instalar as bibliotecas axios e zustand
+    npm i axios zustand ( sempre verificar se tem suporte a typescripit)
+3º entrar no layout
+    Alterar o nome do projeto e o idioma
+4º Criação do banco de dados
+    ✅ 1. Instalar o Prisma (CLI)
+        npm install prisma --save-dev
+
+    ✅ 2. Inicializar o Prisma
+         Cria o ficheiro schema.prisma e o .env:
+            npx prisma init
+
+    ✅ 3. Instalar o Prisma Client
+        npm install @prisma/client
+
+    ✅ 4. Criar a primeira migração (se usares BD relacional)
+        npx prisma migrate dev --name init
+
+
+    Sempre que alterares o schema.prisma:
+
+        npx prisma migrate dev
+
+    ✅ 5. Gerar o cliente novamente (opcional)
+
+    Quando alterares o schema:
+
+    npx prisma generate
+
+    🧪 6. Opcional: Abrir o Prisma Studio
+
+        Interface visual para ver e editar dados:
+
+            npx prisma studio
+
+🟢 Código adicional necessário quando o prisma não reconhece a variável de ambiente: dotenv
+
+    Instalar:
+
+    npm install dotenv
+    depois faz a importação do dotenv no prisma.config
+        import { config } from "dotenv";
+
+        config();
+
+
+Importar no início do ficheiro principal:
+7º criar os models no schema.prisma
+8º Enviar a esrutura dos models para o banco de dados 
+    
+
