@@ -10,7 +10,7 @@ if (!connectionString) {
 const adapter = new PrismaPg({ connectionString });
 const prisma = new PrismaClient({ adapter });
 async function main() {
-    console.log('Iniciando seed...');
+    
     const pizzas = [
         {
             id: 1,
