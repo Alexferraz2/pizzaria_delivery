@@ -56,6 +56,83 @@ module.exports = require("next/dist/compiled/next-server/app-page.runtime.dev.js
 
 /***/ }),
 
+/***/ "assert":
+/*!*************************!*\
+  !*** external "assert" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("assert");
+
+/***/ }),
+
+/***/ "crypto":
+/*!*************************!*\
+  !*** external "crypto" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("crypto");
+
+/***/ }),
+
+/***/ "events":
+/*!*************************!*\
+  !*** external "events" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("events");
+
+/***/ }),
+
+/***/ "fs":
+/*!*********************!*\
+  !*** external "fs" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("fs");
+
+/***/ }),
+
+/***/ "http":
+/*!***********************!*\
+  !*** external "http" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("http");
+
+/***/ }),
+
+/***/ "http2":
+/*!************************!*\
+  !*** external "http2" ***!
+  \************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("http2");
+
+/***/ }),
+
+/***/ "https":
+/*!************************!*\
+  !*** external "https" ***!
+  \************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("https");
+
+/***/ }),
+
 /***/ "path":
 /*!***********************!*\
   !*** external "path" ***!
@@ -67,6 +144,17 @@ module.exports = require("path");
 
 /***/ }),
 
+/***/ "stream":
+/*!*************************!*\
+  !*** external "stream" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("stream");
+
+/***/ }),
+
 /***/ "url":
 /*!**********************!*\
   !*** external "url" ***!
@@ -75,6 +163,38 @@ module.exports = require("path");
 
 "use strict";
 module.exports = require("url");
+
+/***/ }),
+
+/***/ "util":
+/*!***********************!*\
+  !*** external "util" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("util");
+
+/***/ }),
+
+/***/ "zlib":
+/*!***********************!*\
+  !*** external "zlib" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("zlib");
+
+/***/ }),
+
+/***/ "?4c03":
+/*!***********************!*\
+  !*** debug (ignored) ***!
+  \***********************/
+/***/ (() => {
+
+/* (ignored) */
 
 /***/ }),
 
@@ -109,13 +229,35 @@ eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__w
 
 /***/ }),
 
-/***/ "(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22C%3A%5C%5CUsers%5C%5CDIOGENA%5C%5CDocuments%5C%5CJavascript%5C%5CCurso%20B7WEB%5C%5CNodeJs%5C%5Cprojects%5C%5Cpizzaria_delivery%5C%5Csrc%5C%5Ccomponents%5C%5Clayout%5C%5Cheader.tsx%22%2C%22ids%22%3A%5B%22Header%22%5D%7D&server=true!":
-/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22C%3A%5C%5CUsers%5C%5CDIOGENA%5C%5CDocuments%5C%5CJavascript%5C%5CCurso%20B7WEB%5C%5CNodeJs%5C%5Cprojects%5C%5Cpizzaria_delivery%5C%5Csrc%5C%5Ccomponents%5C%5Clayout%5C%5Cheader.tsx%22%2C%22ids%22%3A%5B%22Header%22%5D%7D&server=true! ***!
-  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22C%3A%5C%5CUsers%5C%5CDIOGENA%5C%5CDocuments%5C%5CJavascript%5C%5CCurso%20B7WEB%5C%5CNodeJs%5C%5Cprojects%5C%5Cpizzaria_delivery%5C%5Csrc%5C%5Ccomponents%5C%5Chome%5C%5Cpizzas-list.tsx%22%2C%22ids%22%3A%5B%22PizzaList%22%5D%7D&modules=%7B%22request%22%3A%22C%3A%5C%5CUsers%5C%5CDIOGENA%5C%5CDocuments%5C%5CJavascript%5C%5CCurso%20B7WEB%5C%5CNodeJs%5C%5Cprojects%5C%5Cpizzaria_delivery%5C%5Csrc%5C%5Ccomponents%5C%5Clayout%5C%5Cheader.tsx%22%2C%22ids%22%3A%5B%22Header%22%5D%7D&server=true!":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22C%3A%5C%5CUsers%5C%5CDIOGENA%5C%5CDocuments%5C%5CJavascript%5C%5CCurso%20B7WEB%5C%5CNodeJs%5C%5Cprojects%5C%5Cpizzaria_delivery%5C%5Csrc%5C%5Ccomponents%5C%5Chome%5C%5Cpizzas-list.tsx%22%2C%22ids%22%3A%5B%22PizzaList%22%5D%7D&modules=%7B%22request%22%3A%22C%3A%5C%5CUsers%5C%5CDIOGENA%5C%5CDocuments%5C%5CJavascript%5C%5CCurso%20B7WEB%5C%5CNodeJs%5C%5Cprojects%5C%5Cpizzaria_delivery%5C%5Csrc%5C%5Ccomponents%5C%5Clayout%5C%5Cheader.tsx%22%2C%22ids%22%3A%5B%22Header%22%5D%7D&server=true! ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./src/components/layout/header.tsx */ \"(ssr)/./src/components/layout/header.tsx\"));\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWZsaWdodC1jbGllbnQtZW50cnktbG9hZGVyLmpzP21vZHVsZXM9JTdCJTIycmVxdWVzdCUyMiUzQSUyMkMlM0ElNUMlNUNVc2VycyU1QyU1Q0RJT0dFTkElNUMlNUNEb2N1bWVudHMlNUMlNUNKYXZhc2NyaXB0JTVDJTVDQ3Vyc28lMjBCN1dFQiU1QyU1Q05vZGVKcyU1QyU1Q3Byb2plY3RzJTVDJTVDcGl6emFyaWFfZGVsaXZlcnklNUMlNUNzcmMlNUMlNUNjb21wb25lbnRzJTVDJTVDbGF5b3V0JTVDJTVDaGVhZGVyLnRzeCUyMiUyQyUyMmlkcyUyMiUzQSU1QiUyMkhlYWRlciUyMiU1RCU3RCZzZXJ2ZXI9dHJ1ZSEiLCJtYXBwaW5ncyI6IkFBQUEsZ0xBQWlNIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vcGl6emFyaWFfZGVsaXZleS8/MDU1YyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiwgd2VicGFja0V4cG9ydHM6IFtcIkhlYWRlclwiXSAqLyBcIkM6XFxcXFVzZXJzXFxcXERJT0dFTkFcXFxcRG9jdW1lbnRzXFxcXEphdmFzY3JpcHRcXFxcQ3Vyc28gQjdXRUJcXFxcTm9kZUpzXFxcXHByb2plY3RzXFxcXHBpenphcmlhX2RlbGl2ZXJ5XFxcXHNyY1xcXFxjb21wb25lbnRzXFxcXGxheW91dFxcXFxoZWFkZXIudHN4XCIpO1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22C%3A%5C%5CUsers%5C%5CDIOGENA%5C%5CDocuments%5C%5CJavascript%5C%5CCurso%20B7WEB%5C%5CNodeJs%5C%5Cprojects%5C%5Cpizzaria_delivery%5C%5Csrc%5C%5Ccomponents%5C%5Clayout%5C%5Cheader.tsx%22%2C%22ids%22%3A%5B%22Header%22%5D%7D&server=true!\n");
+eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./src/components/home/pizzas-list.tsx */ \"(ssr)/./src/components/home/pizzas-list.tsx\"));\n;\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./src/components/layout/header.tsx */ \"(ssr)/./src/components/layout/header.tsx\"));\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWZsaWdodC1jbGllbnQtZW50cnktbG9hZGVyLmpzP21vZHVsZXM9JTdCJTIycmVxdWVzdCUyMiUzQSUyMkMlM0ElNUMlNUNVc2VycyU1QyU1Q0RJT0dFTkElNUMlNUNEb2N1bWVudHMlNUMlNUNKYXZhc2NyaXB0JTVDJTVDQ3Vyc28lMjBCN1dFQiU1QyU1Q05vZGVKcyU1QyU1Q3Byb2plY3RzJTVDJTVDcGl6emFyaWFfZGVsaXZlcnklNUMlNUNzcmMlNUMlNUNjb21wb25lbnRzJTVDJTVDaG9tZSU1QyU1Q3Bpenphcy1saXN0LnRzeCUyMiUyQyUyMmlkcyUyMiUzQSU1QiUyMlBpenphTGlzdCUyMiU1RCU3RCZtb2R1bGVzPSU3QiUyMnJlcXVlc3QlMjIlM0ElMjJDJTNBJTVDJTVDVXNlcnMlNUMlNUNESU9HRU5BJTVDJTVDRG9jdW1lbnRzJTVDJTVDSmF2YXNjcmlwdCU1QyU1Q0N1cnNvJTIwQjdXRUIlNUMlNUNOb2RlSnMlNUMlNUNwcm9qZWN0cyU1QyU1Q3BpenphcmlhX2RlbGl2ZXJ5JTVDJTVDc3JjJTVDJTVDY29tcG9uZW50cyU1QyU1Q2xheW91dCU1QyU1Q2hlYWRlci50c3glMjIlMkMlMjJpZHMlMjIlM0ElNUIlMjJIZWFkZXIlMjIlNUQlN0Qmc2VydmVyPXRydWUhIiwibWFwcGluZ3MiOiJBQUFBLHNMQUF1TTtBQUN2TTtBQUNBLGdMQUFpTSIsInNvdXJjZXMiOlsid2VicGFjazovL3BpenphcmlhX2RlbGl2ZXkvPzBkZmMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIsIHdlYnBhY2tFeHBvcnRzOiBbXCJQaXp6YUxpc3RcIl0gKi8gXCJDOlxcXFxVc2Vyc1xcXFxESU9HRU5BXFxcXERvY3VtZW50c1xcXFxKYXZhc2NyaXB0XFxcXEN1cnNvIEI3V0VCXFxcXE5vZGVKc1xcXFxwcm9qZWN0c1xcXFxwaXp6YXJpYV9kZWxpdmVyeVxcXFxzcmNcXFxcY29tcG9uZW50c1xcXFxob21lXFxcXHBpenphcy1saXN0LnRzeFwiKTtcbjtcbmltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiLCB3ZWJwYWNrRXhwb3J0czogW1wiSGVhZGVyXCJdICovIFwiQzpcXFxcVXNlcnNcXFxcRElPR0VOQVxcXFxEb2N1bWVudHNcXFxcSmF2YXNjcmlwdFxcXFxDdXJzbyBCN1dFQlxcXFxOb2RlSnNcXFxccHJvamVjdHNcXFxccGl6emFyaWFfZGVsaXZlcnlcXFxcc3JjXFxcXGNvbXBvbmVudHNcXFxcbGF5b3V0XFxcXGhlYWRlci50c3hcIik7XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22C%3A%5C%5CUsers%5C%5CDIOGENA%5C%5CDocuments%5C%5CJavascript%5C%5CCurso%20B7WEB%5C%5CNodeJs%5C%5Cprojects%5C%5Cpizzaria_delivery%5C%5Csrc%5C%5Ccomponents%5C%5Chome%5C%5Cpizzas-list.tsx%22%2C%22ids%22%3A%5B%22PizzaList%22%5D%7D&modules=%7B%22request%22%3A%22C%3A%5C%5CUsers%5C%5CDIOGENA%5C%5CDocuments%5C%5CJavascript%5C%5CCurso%20B7WEB%5C%5CNodeJs%5C%5Cprojects%5C%5Cpizzaria_delivery%5C%5Csrc%5C%5Ccomponents%5C%5Clayout%5C%5Cheader.tsx%22%2C%22ids%22%3A%5B%22Header%22%5D%7D&server=true!\n");
+
+/***/ }),
+
+/***/ "(ssr)/./src/components/home/pizza-item.tsx":
+/*!********************************************!*\
+  !*** ./src/components/home/pizza-item.tsx ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   PizzaItem: () => (/* binding */ PizzaItem)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/image */ \"(ssr)/./node_modules/next/dist/api/image.js\");\n/* harmony import */ var _ui_button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../ui/button */ \"(ssr)/./src/components/ui/button.tsx\");\n/* harmony import */ var _lib_utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/lib/utils */ \"(ssr)/./src/lib/utils.ts\");\n/* __next_internal_client_entry_do_not_use__ PizzaItem auto */ \n\n\n\nconst PizzaItem = ({ data })=>{\n    const handleAddToCart = ()=>{\n        console.log(`Adicionar pizza ${data.name} ao carrinho`);\n    };\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"text-sm bg-secondary p-4 rounded-md\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_image__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n                src: data.image,\n                alt: data.name,\n                width: 200,\n                height: 200,\n                className: \"w-full mb-3\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\DIOGENA\\\\Documents\\\\Javascript\\\\Curso B7WEB\\\\NodeJs\\\\projects\\\\pizzaria_delivery\\\\src\\\\components\\\\home\\\\pizza-item.tsx\",\n                lineNumber: 19,\n                columnNumber: 13\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"text-lg font-bold\",\n                children: data.name\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\DIOGENA\\\\Documents\\\\Javascript\\\\Curso B7WEB\\\\NodeJs\\\\projects\\\\pizzaria_delivery\\\\src\\\\components\\\\home\\\\pizza-item.tsx\",\n                lineNumber: 26,\n                columnNumber: 13\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                children: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_3__.decimalToMoney)(data.price)\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\DIOGENA\\\\Documents\\\\Javascript\\\\Curso B7WEB\\\\NodeJs\\\\projects\\\\pizzaria_delivery\\\\src\\\\components\\\\home\\\\pizza-item.tsx\",\n                lineNumber: 27,\n                columnNumber: 13\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"truncate mb-3\",\n                children: data.ingredients\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\DIOGENA\\\\Documents\\\\Javascript\\\\Curso B7WEB\\\\NodeJs\\\\projects\\\\pizzaria_delivery\\\\src\\\\components\\\\home\\\\pizza-item.tsx\",\n                lineNumber: 28,\n                columnNumber: 13\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"text-center\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_ui_button__WEBPACK_IMPORTED_MODULE_2__.Button, {\n                    onClick: handleAddToCart,\n                    children: \"Adcionar ao carrinho\"\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\DIOGENA\\\\Documents\\\\Javascript\\\\Curso B7WEB\\\\NodeJs\\\\projects\\\\pizzaria_delivery\\\\src\\\\components\\\\home\\\\pizza-item.tsx\",\n                    lineNumber: 30,\n                    columnNumber: 17\n                }, undefined)\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\DIOGENA\\\\Documents\\\\Javascript\\\\Curso B7WEB\\\\NodeJs\\\\projects\\\\pizzaria_delivery\\\\src\\\\components\\\\home\\\\pizza-item.tsx\",\n                lineNumber: 29,\n                columnNumber: 13\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\DIOGENA\\\\Documents\\\\Javascript\\\\Curso B7WEB\\\\NodeJs\\\\projects\\\\pizzaria_delivery\\\\src\\\\components\\\\home\\\\pizza-item.tsx\",\n        lineNumber: 18,\n        columnNumber: 9\n    }, undefined);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9zcmMvY29tcG9uZW50cy9ob21lL3BpenphLWl0ZW0udHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7QUFHOEI7QUFDTztBQUNPO0FBTXJDLE1BQU1HLFlBQVksQ0FBQyxFQUFFQyxJQUFJLEVBQVM7SUFFckMsTUFBTUMsa0JBQWtCO1FBQ3BCQyxRQUFRQyxHQUFHLENBQUMsQ0FBQyxnQkFBZ0IsRUFBRUgsS0FBS0ksSUFBSSxDQUFDLFlBQVksQ0FBQztJQUMxRDtJQUNBLHFCQUNJLDhEQUFDQztRQUFJQyxXQUFVOzswQkFDWCw4REFBQ1Ysa0RBQUtBO2dCQUNGVyxLQUFLUCxLQUFLUSxLQUFLO2dCQUNmQyxLQUFLVCxLQUFLSSxJQUFJO2dCQUNkTSxPQUFPO2dCQUNQQyxRQUFRO2dCQUNSTCxXQUFVOzs7Ozs7MEJBRWQsOERBQUNEO2dCQUFJQyxXQUFVOzBCQUFxQk4sS0FBS0ksSUFBSTs7Ozs7OzBCQUM3Qyw4REFBQ0M7MEJBQUtQLDBEQUFjQSxDQUFDRSxLQUFLWSxLQUFLOzs7Ozs7MEJBQy9CLDhEQUFDUDtnQkFBSUMsV0FBVTswQkFBaUJOLEtBQUthLFdBQVc7Ozs7OzswQkFDaEQsOERBQUNSO2dCQUFJQyxXQUFVOzBCQUNYLDRFQUFDVCw4Q0FBTUE7b0JBQUNpQixTQUFTYjs4QkFBaUI7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBS2xELEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9waXp6YXJpYV9kZWxpdmV5Ly4vc3JjL2NvbXBvbmVudHMvaG9tZS9waXp6YS1pdGVtLnRzeD85OWM3Il0sInNvdXJjZXNDb250ZW50IjpbIlwidXNlIGNsaWVudFwiXHJcblxyXG5pbXBvcnQgeyBQcm9kdWN0IH0gZnJvbSBcIkBwcmlzbWEvY2xpZW50XCJcclxuaW1wb3J0IEltYWdlIGZyb20gXCJuZXh0L2ltYWdlXCJcclxuaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSBcIi4uL3VpL2J1dHRvblwiXHJcbmltcG9ydCB7IGRlY2ltYWxUb01vbmV5IH0gZnJvbSBcIkAvbGliL3V0aWxzXCJcclxuXHJcbnR5cGUgUHJvcHMgPSB7XHJcbiAgICBkYXRhOiBQcm9kdWN0XHJcbn1cclxuXHJcbmV4cG9ydCBjb25zdCBQaXp6YUl0ZW0gPSAoeyBkYXRhIH06IFByb3BzKSA9PiB7XHJcblxyXG4gICAgY29uc3QgaGFuZGxlQWRkVG9DYXJ0ID0gKCkgPT4ge1xyXG4gICAgICAgIGNvbnNvbGUubG9nKGBBZGljaW9uYXIgcGl6emEgJHtkYXRhLm5hbWV9IGFvIGNhcnJpbmhvYClcclxuICAgIH1cclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ0ZXh0LXNtIGJnLXNlY29uZGFyeSBwLTQgcm91bmRlZC1tZFwiPlxyXG4gICAgICAgICAgICA8SW1hZ2VcclxuICAgICAgICAgICAgICAgIHNyYz17ZGF0YS5pbWFnZX1cclxuICAgICAgICAgICAgICAgIGFsdD17ZGF0YS5uYW1lfVxyXG4gICAgICAgICAgICAgICAgd2lkdGg9ezIwMH1cclxuICAgICAgICAgICAgICAgIGhlaWdodD17MjAwfVxyXG4gICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwidy1mdWxsIG1iLTNcIiAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAvPlxyXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRleHQtbGcgZm9udC1ib2xkXCI+e2RhdGEubmFtZX08L2Rpdj5cclxuICAgICAgICAgICAgPGRpdj57ZGVjaW1hbFRvTW9uZXkoZGF0YS5wcmljZSl9PC9kaXY+XHJcbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidHJ1bmNhdGUgbWItM1wiPntkYXRhLmluZ3JlZGllbnRzfTwvZGl2PlxyXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRleHQtY2VudGVyXCI+XHJcbiAgICAgICAgICAgICAgICA8QnV0dG9uIG9uQ2xpY2s9e2hhbmRsZUFkZFRvQ2FydH0+QWRjaW9uYXIgYW8gY2FycmluaG88L0J1dHRvbj5cclxuICAgICAgICAgICAgPC9kaXY+XHJcblxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgKVxyXG59Il0sIm5hbWVzIjpbIkltYWdlIiwiQnV0dG9uIiwiZGVjaW1hbFRvTW9uZXkiLCJQaXp6YUl0ZW0iLCJkYXRhIiwiaGFuZGxlQWRkVG9DYXJ0IiwiY29uc29sZSIsImxvZyIsIm5hbWUiLCJkaXYiLCJjbGFzc05hbWUiLCJzcmMiLCJpbWFnZSIsImFsdCIsIndpZHRoIiwiaGVpZ2h0IiwicHJpY2UiLCJpbmdyZWRpZW50cyIsIm9uQ2xpY2siXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./src/components/home/pizza-item.tsx\n");
+
+/***/ }),
+
+/***/ "(ssr)/./src/components/home/pizzas-list.tsx":
+/*!*********************************************!*\
+  !*** ./src/components/home/pizzas-list.tsx ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   PizzaList: () => (/* binding */ PizzaList)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _pizza_item__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pizza-item */ \"(ssr)/./src/components/home/pizza-item.tsx\");\n/* __next_internal_client_entry_do_not_use__ PizzaList auto */ \n\nconst PizzaList = ({ pizzas })=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"grid grid-cols-2 lg:grid-cols-4 gap-4\",\n        children: pizzas.map((item)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_pizza_item__WEBPACK_IMPORTED_MODULE_1__.PizzaItem, {\n                data: item\n            }, item.id, false, {\n                fileName: \"C:\\\\Users\\\\DIOGENA\\\\Documents\\\\Javascript\\\\Curso B7WEB\\\\NodeJs\\\\projects\\\\pizzaria_delivery\\\\src\\\\components\\\\home\\\\pizzas-list.tsx\",\n                lineNumber: 13,\n                columnNumber: 13\n            }, undefined))\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\DIOGENA\\\\Documents\\\\Javascript\\\\Curso B7WEB\\\\NodeJs\\\\projects\\\\pizzaria_delivery\\\\src\\\\components\\\\home\\\\pizzas-list.tsx\",\n        lineNumber: 11,\n        columnNumber: 12\n    }, undefined);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9zcmMvY29tcG9uZW50cy9ob21lL3Bpenphcy1saXN0LnRzeCIsIm1hcHBpbmdzIjoiOzs7Ozs7OztBQUd3QztBQU1qQyxNQUFNQyxZQUFZLENBQUMsRUFBRUMsTUFBTSxFQUFRO0lBQ3RDLHFCQUFPLDhEQUFDQztRQUFJQyxXQUFVO2tCQUNqQkYsT0FBT0csR0FBRyxDQUFDLENBQUNDLHFCQUNULDhEQUFDTixrREFBU0E7Z0JBRU5PLE1BQU1EO2VBRERBLEtBQUtFLEVBQUU7Ozs7Ozs7Ozs7QUFPNUIsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL3BpenphcmlhX2RlbGl2ZXkvLi9zcmMvY29tcG9uZW50cy9ob21lL3Bpenphcy1saXN0LnRzeD8xNWFkIl0sInNvdXJjZXNDb250ZW50IjpbIlwidXNlIGNsaWVudFwiXHJcblxyXG5pbXBvcnQgeyBQcm9kdWN0IH0gZnJvbSBcIkBwcmlzbWEvY2xpZW50XCJcclxuaW1wb3J0IHsgUGl6emFJdGVtIH0gZnJvbSBcIi4vcGl6emEtaXRlbVwiXHJcblxyXG50eXBlIFByb3BzID0ge1xyXG4gICAgcGl6emFzOiBQcm9kdWN0W11cclxufVxyXG5cclxuZXhwb3J0IGNvbnN0IFBpenphTGlzdCA9ICh7IHBpenphc306IFByb3BzKT0+IHtcclxuICAgIHJldHVybiA8ZGl2IGNsYXNzTmFtZT1cImdyaWQgZ3JpZC1jb2xzLTIgbGc6Z3JpZC1jb2xzLTQgZ2FwLTRcIj5cclxuICAgICAgICB7cGl6emFzLm1hcCgoaXRlbSkgPT4gKFxyXG4gICAgICAgICAgICA8UGl6emFJdGVtXHJcbiAgICAgICAgICAgICAgICBrZXk9e2l0ZW0uaWR9XHJcbiAgICAgICAgICAgICAgICBkYXRhPXtpdGVtfVxyXG4gICAgICAgICAgICAvPlxyXG5cclxuXHJcbiAgICAgICAgKSl9XHJcbiAgICA8L2Rpdj5cclxufSJdLCJuYW1lcyI6WyJQaXp6YUl0ZW0iLCJQaXp6YUxpc3QiLCJwaXp6YXMiLCJkaXYiLCJjbGFzc05hbWUiLCJtYXAiLCJpdGVtIiwiZGF0YSIsImlkIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(ssr)/./src/components/home/pizzas-list.tsx\n");
 
 /***/ }),
 
@@ -148,7 +290,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   cn: () => (/* binding */ cn)\n/* harmony export */ });\n/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! clsx */ \"(ssr)/./node_modules/clsx/dist/clsx.mjs\");\n/* harmony import */ var tailwind_merge__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! tailwind-merge */ \"(ssr)/./node_modules/tailwind-merge/dist/bundle-mjs.mjs\");\n\n\nfunction cn(...inputs) {\n    return (0,tailwind_merge__WEBPACK_IMPORTED_MODULE_1__.twMerge)((0,clsx__WEBPACK_IMPORTED_MODULE_0__.clsx)(inputs));\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9zcmMvbGliL3V0aWxzLnRzIiwibWFwcGluZ3MiOiI7Ozs7OztBQUE0QztBQUNKO0FBRWpDLFNBQVNFLEdBQUcsR0FBR0MsTUFBb0I7SUFDeEMsT0FBT0YsdURBQU9BLENBQUNELDBDQUFJQSxDQUFDRztBQUN0QiIsInNvdXJjZXMiOlsid2VicGFjazovL3BpenphcmlhX2RlbGl2ZXkvLi9zcmMvbGliL3V0aWxzLnRzPzdjMWMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY2xzeCwgdHlwZSBDbGFzc1ZhbHVlIH0gZnJvbSBcImNsc3hcIlxuaW1wb3J0IHsgdHdNZXJnZSB9IGZyb20gXCJ0YWlsd2luZC1tZXJnZVwiXG5cbmV4cG9ydCBmdW5jdGlvbiBjbiguLi5pbnB1dHM6IENsYXNzVmFsdWVbXSkge1xuICByZXR1cm4gdHdNZXJnZShjbHN4KGlucHV0cykpXG59XG4iXSwibmFtZXMiOlsiY2xzeCIsInR3TWVyZ2UiLCJjbiIsImlucHV0cyJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/./src/lib/utils.ts\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   cn: () => (/* binding */ cn),\n/* harmony export */   decimalToMoney: () => (/* binding */ decimalToMoney)\n/* harmony export */ });\n/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! clsx */ \"(ssr)/./node_modules/clsx/dist/clsx.mjs\");\n/* harmony import */ var tailwind_merge__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! tailwind-merge */ \"(ssr)/./node_modules/tailwind-merge/dist/bundle-mjs.mjs\");\n\n\nfunction cn(...inputs) {\n    return (0,tailwind_merge__WEBPACK_IMPORTED_MODULE_1__.twMerge)((0,clsx__WEBPACK_IMPORTED_MODULE_0__.clsx)(inputs));\n}\nconst decimalToMoney = (price)=>{\n    return parseFloat(price.toString()).toLocaleString(\"pt-BR\", {\n        style: \"currency\",\n        currency: \"BRL\",\n        minimumFractionDigits: 2,\n        maximumFractionDigits: 2\n    });\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9zcmMvbGliL3V0aWxzLnRzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFDNEM7QUFDSjtBQUVqQyxTQUFTRSxHQUFHLEdBQUdDLE1BQW9CO0lBQ3hDLE9BQU9GLHVEQUFPQSxDQUFDRCwwQ0FBSUEsQ0FBQ0c7QUFDdEI7QUFFTyxNQUFNQyxpQkFBaUIsQ0FBQ0M7SUFDN0IsT0FBT0MsV0FBV0QsTUFBTUUsUUFBUSxJQUM3QkMsY0FBYyxDQUFDLFNBQVM7UUFDdkJDLE9BQU87UUFDUEMsVUFBVTtRQUNWQyx1QkFBdUI7UUFDdkJDLHVCQUF1QjtJQUN6QjtBQUNKLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9waXp6YXJpYV9kZWxpdmV5Ly4vc3JjL2xpYi91dGlscy50cz83YzFjIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IFByaXNtYSB9IGZyb20gXCJAcHJpc21hL2NsaWVudFwiXG5pbXBvcnQgeyBjbHN4LCB0eXBlIENsYXNzVmFsdWUgfSBmcm9tIFwiY2xzeFwiXG5pbXBvcnQgeyB0d01lcmdlIH0gZnJvbSBcInRhaWx3aW5kLW1lcmdlXCJcblxuZXhwb3J0IGZ1bmN0aW9uIGNuKC4uLmlucHV0czogQ2xhc3NWYWx1ZVtdKSB7XG4gIHJldHVybiB0d01lcmdlKGNsc3goaW5wdXRzKSlcbn1cblxuZXhwb3J0IGNvbnN0IGRlY2ltYWxUb01vbmV5ID0gKHByaWNlOiBzdHJpbmcgfCBudW1iZXIgfCBQcmlzbWEuRGVjaW1hbCkgPT4ge1xuICByZXR1cm4gcGFyc2VGbG9hdChwcmljZS50b1N0cmluZygpKVxuICAgIC50b0xvY2FsZVN0cmluZyhcInB0LUJSXCIsIHtcbiAgICAgIHN0eWxlOiBcImN1cnJlbmN5XCIsXG4gICAgICBjdXJyZW5jeTogXCJCUkxcIixcbiAgICAgIG1pbmltdW1GcmFjdGlvbkRpZ2l0czogMixcbiAgICAgIG1heGltdW1GcmFjdGlvbkRpZ2l0czogMixcbiAgICB9KVxufSJdLCJuYW1lcyI6WyJjbHN4IiwidHdNZXJnZSIsImNuIiwiaW5wdXRzIiwiZGVjaW1hbFRvTW9uZXkiLCJwcmljZSIsInBhcnNlRmxvYXQiLCJ0b1N0cmluZyIsInRvTG9jYWxlU3RyaW5nIiwic3R5bGUiLCJjdXJyZW5jeSIsIm1pbmltdW1GcmFjdGlvbkRpZ2l0cyIsIm1heGltdW1GcmFjdGlvbkRpZ2l0cyJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/./src/lib/utils.ts\n");
 
 /***/ }),
 
@@ -181,7 +323,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   Page: () => (/* binding */ Page),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_layout_header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/components/layout/header */ \"(rsc)/./src/components/layout/header.tsx\");\n\n\nconst Page = async ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_layout_header__WEBPACK_IMPORTED_MODULE_1__.Header, {}, void 0, false, {\n                fileName: \"C:\\\\Users\\\\DIOGENA\\\\Documents\\\\Javascript\\\\Curso B7WEB\\\\NodeJs\\\\projects\\\\pizzaria_delivery\\\\src\\\\app\\\\page.tsx\",\n                lineNumber: 6,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"main\", {\n                className: \"container mx-auto mb-10\",\n                children: \"P\\xe1gina inicial\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\DIOGENA\\\\Documents\\\\Javascript\\\\Curso B7WEB\\\\NodeJs\\\\projects\\\\pizzaria_delivery\\\\src\\\\app\\\\page.tsx\",\n                lineNumber: 7,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\DIOGENA\\\\Documents\\\\Javascript\\\\Curso B7WEB\\\\NodeJs\\\\projects\\\\pizzaria_delivery\\\\src\\\\app\\\\page.tsx\",\n        lineNumber: 5,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Page);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvYXBwL3BhZ2UudHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUFtRDtBQUU1QyxNQUFNQyxPQUFPO0lBQ2xCLHFCQUNFLDhEQUFDQzs7MEJBQ0MsOERBQUNGLDZEQUFNQTs7Ozs7MEJBQ1AsOERBQUNHO2dCQUFLQyxXQUFVOzBCQUEwQjs7Ozs7Ozs7Ozs7O0FBS2hELEVBQUM7QUFFRCxpRUFBZUgsSUFBSUEsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL3BpenphcmlhX2RlbGl2ZXkvLi9zcmMvYXBwL3BhZ2UudHN4P2Y2OGEiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgSGVhZGVyIH0gZnJvbSBcIkAvY29tcG9uZW50cy9sYXlvdXQvaGVhZGVyXCJcblxuZXhwb3J0IGNvbnN0IFBhZ2UgPSBhc3luYyAoKSAgPT4ge1xuICByZXR1cm4gKFxuICAgIDxkaXY+XG4gICAgICA8SGVhZGVyLz5cbiAgICAgIDxtYWluIGNsYXNzTmFtZT1cImNvbnRhaW5lciBteC1hdXRvIG1iLTEwXCI+XG4gICAgICAgIFDDoWdpbmEgaW5pY2lhbFxuICAgICAgPC9tYWluPlxuICAgIDwvZGl2PlxuICApXG59XG5cbmV4cG9ydCBkZWZhdWx0IFBhZ2U7Il0sIm5hbWVzIjpbIkhlYWRlciIsIlBhZ2UiLCJkaXYiLCJtYWluIiwiY2xhc3NOYW1lIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./src/app/page.tsx\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   Page: () => (/* binding */ Page),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_layout_header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/components/layout/header */ \"(rsc)/./src/components/layout/header.tsx\");\n/* harmony import */ var _lib_axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../lib/axios */ \"(rsc)/./src/lib/axios.ts\");\n/* harmony import */ var _components_home_pizzas_list__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/components/home/pizzas-list */ \"(rsc)/./src/components/home/pizzas-list.tsx\");\n\n\n\n\nconst Page = async ()=>{\n    const pizzaReq = await _lib_axios__WEBPACK_IMPORTED_MODULE_2__.api.get(\"/pizzas\");\n    const pizzas = pizzaReq.data.pizzas ?? [];\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_layout_header__WEBPACK_IMPORTED_MODULE_1__.Header, {}, void 0, false, {\n                fileName: \"C:\\\\Users\\\\DIOGENA\\\\Documents\\\\Javascript\\\\Curso B7WEB\\\\NodeJs\\\\projects\\\\pizzaria_delivery\\\\src\\\\app\\\\page.tsx\",\n                lineNumber: 10,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"main\", {\n                className: \"container mx-auto mb-10\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_home_pizzas_list__WEBPACK_IMPORTED_MODULE_3__.PizzaList, {\n                    pizzas: pizzas\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\DIOGENA\\\\Documents\\\\Javascript\\\\Curso B7WEB\\\\NodeJs\\\\projects\\\\pizzaria_delivery\\\\src\\\\app\\\\page.tsx\",\n                    lineNumber: 12,\n                    columnNumber: 9\n                }, undefined)\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\DIOGENA\\\\Documents\\\\Javascript\\\\Curso B7WEB\\\\NodeJs\\\\projects\\\\pizzaria_delivery\\\\src\\\\app\\\\page.tsx\",\n                lineNumber: 11,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\DIOGENA\\\\Documents\\\\Javascript\\\\Curso B7WEB\\\\NodeJs\\\\projects\\\\pizzaria_delivery\\\\src\\\\app\\\\page.tsx\",\n        lineNumber: 9,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Page);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvYXBwL3BhZ2UudHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7O0FBQW1EO0FBQ2hCO0FBQ3VCO0FBRW5ELE1BQU1HLE9BQU87SUFDbEIsTUFBTUMsV0FBVyxNQUFNSCwyQ0FBR0EsQ0FBQ0ksR0FBRyxDQUFDO0lBQy9CLE1BQU1DLFNBQVNGLFNBQVNHLElBQUksQ0FBQ0QsTUFBTSxJQUFJLEVBQUU7SUFDekMscUJBQ0UsOERBQUNFOzswQkFDQyw4REFBQ1IsNkRBQU1BOzs7OzswQkFDUCw4REFBQ1M7Z0JBQUtDLFdBQVU7MEJBQ2QsNEVBQUNSLG1FQUFTQTtvQkFBQ0ksUUFBUUE7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBSTNCLEVBQUM7QUFFRCxpRUFBZUgsSUFBSUEsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL3BpenphcmlhX2RlbGl2ZXkvLi9zcmMvYXBwL3BhZ2UudHN4P2Y2OGEiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgSGVhZGVyIH0gZnJvbSBcIkAvY29tcG9uZW50cy9sYXlvdXQvaGVhZGVyXCJcbmltcG9ydCB7IGFwaSB9IGZyb20gXCIuLi9saWIvYXhpb3NcIjtcbmltcG9ydCB7IFBpenphTGlzdCB9IGZyb20gXCJAL2NvbXBvbmVudHMvaG9tZS9waXp6YXMtbGlzdFwiO1xuXG5leHBvcnQgY29uc3QgUGFnZSA9IGFzeW5jICgpICA9PiB7XG4gIGNvbnN0IHBpenphUmVxID0gYXdhaXQgYXBpLmdldCgnL3BpenphcycpXG4gIGNvbnN0IHBpenphcyA9IHBpenphUmVxLmRhdGEucGl6emFzID8/IFtdO1xuICByZXR1cm4gKFxuICAgIDxkaXY+XG4gICAgICA8SGVhZGVyLz5cbiAgICAgIDxtYWluIGNsYXNzTmFtZT1cImNvbnRhaW5lciBteC1hdXRvIG1iLTEwXCI+XG4gICAgICAgIDxQaXp6YUxpc3QgcGl6emFzPXtwaXp6YXN9Lz5cbiAgICAgIDwvbWFpbj5cbiAgICA8L2Rpdj5cbiAgKVxufVxuXG5leHBvcnQgZGVmYXVsdCBQYWdlOyJdLCJuYW1lcyI6WyJIZWFkZXIiLCJhcGkiLCJQaXp6YUxpc3QiLCJQYWdlIiwicGl6emFSZXEiLCJnZXQiLCJwaXp6YXMiLCJkYXRhIiwiZGl2IiwibWFpbiIsImNsYXNzTmFtZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(rsc)/./src/app/page.tsx\n");
+
+/***/ }),
+
+/***/ "(rsc)/./src/components/home/pizzas-list.tsx":
+/*!*********************************************!*\
+  !*** ./src/components/home/pizzas-list.tsx ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   PizzaList: () => (/* binding */ e0)
+/* harmony export */ });
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
+
+
+const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\DIOGENA\Documents\Javascript\Curso B7WEB\NodeJs\projects\pizzaria_delivery\src\components\home\pizzas-list.tsx#PizzaList`);
+
 
 /***/ }),
 
@@ -204,6 +365,17 @@ const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__W
 
 /***/ }),
 
+/***/ "(rsc)/./src/lib/axios.ts":
+/*!**************************!*\
+  !*** ./src/lib/axios.ts ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   api: () => (/* binding */ api)\n/* harmony export */ });\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ \"(rsc)/./node_modules/axios/lib/axios.js\");\n\nconst api = axios__WEBPACK_IMPORTED_MODULE_0__[\"default\"].create({\n    baseURL: `${process.env.Next_PUBLIC_BASE_URL}/api`\n});\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvbGliL2F4aW9zLnRzIiwibWFwcGluZ3MiOiI7Ozs7O0FBQTZCO0FBRXRCLE1BQU1DLE1BQU1ELDZDQUFLQSxDQUFDRSxNQUFNLENBQUM7SUFDNUJDLFNBQVMsQ0FBQyxFQUFFQyxRQUFRQyxHQUFHLENBQUNDLG9CQUFvQixDQUFDLElBQUksQ0FBQztBQUN0RCxHQUFFIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vcGl6emFyaWFfZGVsaXZleS8uL3NyYy9saWIvYXhpb3MudHM/ZTg4NSJdLCJzb3VyY2VzQ29udGVudCI6WyIgICAgaW1wb3J0IGF4aW9zIGZyb20gJ2F4aW9zJ1xyXG5cclxuZXhwb3J0IGNvbnN0IGFwaSA9IGF4aW9zLmNyZWF0ZSh7XHJcbiAgICBiYXNlVVJMOiBgJHtwcm9jZXNzLmVudi5OZXh0X1BVQkxJQ19CQVNFX1VSTH0vYXBpYCxcclxufSkiXSwibmFtZXMiOlsiYXhpb3MiLCJhcGkiLCJjcmVhdGUiLCJiYXNlVVJMIiwicHJvY2VzcyIsImVudiIsIk5leHRfUFVCTElDX0JBU0VfVVJMIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./src/lib/axios.ts\n");
+
+/***/ }),
+
 /***/ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-metadata-image-loader.js?type=favicon&segment=&basePath=&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./src/app/favicon.ico?__next_metadata__":
 /*!**************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/next/dist/build/webpack/loaders/next-metadata-image-loader.js?type=favicon&segment=&basePath=&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./src/app/favicon.ico?__next_metadata__ ***!
@@ -222,7 +394,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/@radix-ui","vendor-chunks/tailwind-merge","vendor-chunks/clsx","vendor-chunks/class-variance-authority"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.tsx&appDir=C%3A%5CUsers%5CDIOGENA%5CDocuments%5CJavascript%5CCurso%20B7WEB%5CNodeJs%5Cprojects%5Cpizzaria_delivery%5Csrc%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=C%3A%5CUsers%5CDIOGENA%5CDocuments%5CJavascript%5CCurso%20B7WEB%5CNodeJs%5Cprojects%5Cpizzaria_delivery&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/axios","vendor-chunks/asynckit","vendor-chunks/math-intrinsics","vendor-chunks/es-errors","vendor-chunks/call-bind-apply-helpers","vendor-chunks/get-proto","vendor-chunks/@radix-ui","vendor-chunks/mime-db","vendor-chunks/has-symbols","vendor-chunks/gopd","vendor-chunks/function-bind","vendor-chunks/form-data","vendor-chunks/follow-redirects","vendor-chunks/tailwind-merge","vendor-chunks/clsx","vendor-chunks/class-variance-authority","vendor-chunks/proxy-from-env","vendor-chunks/mime-types","vendor-chunks/hasown","vendor-chunks/has-tostringtag","vendor-chunks/get-intrinsic","vendor-chunks/es-set-tostringtag","vendor-chunks/es-object-atoms","vendor-chunks/es-define-property","vendor-chunks/dunder-proto","vendor-chunks/delayed-stream","vendor-chunks/combined-stream"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.tsx&appDir=C%3A%5CUsers%5CDIOGENA%5CDocuments%5CJavascript%5CCurso%20B7WEB%5CNodeJs%5Cprojects%5Cpizzaria_delivery%5Csrc%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=C%3A%5CUsers%5CDIOGENA%5CDocuments%5CJavascript%5CCurso%20B7WEB%5CNodeJs%5Cprojects%5Cpizzaria_delivery&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();
