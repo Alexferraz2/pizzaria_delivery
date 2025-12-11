@@ -8,7 +8,7 @@ export const Page = async ()  => {
   return (
     <div>
       <Header/>
-      <main className="container mx-auto mb-10">
+      <main className="container mx-auto mb-10 ">
         <PizzaList pizzas={pizzas}/>
       </main>
     </div>
